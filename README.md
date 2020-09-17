@@ -1,5 +1,5 @@
 # website
-This website is in development by @Paciic and @flarely. Bugs will be fixed as soon as they are reported.
+This website is in development by @Paciic, @flarely and @InfRandomness. Bugs will be fixed as soon as they are reported.
 
 <p>
 PROJECT STATUS: Active

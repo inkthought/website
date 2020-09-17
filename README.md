@@ -16,7 +16,7 @@ Please DM me on Discord at geneva#0007, and state why and your experience. Thank
 
 <p>
 <div>
-<a href="https://bit.ly/hnkr" alt="honkers link">add honkers</a>
+<a href="https://bit.ly/hnkr" alt="honkers link">add honkers!</a>
 </div>
-<a href="https://discord.gg/GxfQh7H" alt="discord server">join our discord server</a>
+<a href="https://discord.gg/GxfQh7H" alt="discord server">join our discord server!</a>
 </p>

@@ -1,0 +1,13 @@
+#addBot {
+    font-size: 30px;
+    color: #09FF00;
+    text-align: center;
+    border-radius: 4px;
+    border: 2px solid;
+}
+
+#main {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}

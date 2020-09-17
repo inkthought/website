@@ -1,0 +1,63 @@
+<body>
+  <div class="NewsletterBox">
+    <p>Newsletter Submission</p>
+    <p>Submit Newsletters to have a chance to be in our Monthly Newsletter!</p>
+    <label for="title">Newsletter</label>
+    <form action="/cgi-bin/hello_get.cgi" method="get">
+      <br />
+      <textarea rows="5" cols="60" name="description" id="newsletter">
+      </textarea>
+      <br />
+      <p>
+        Put your name here, or let it stay blank if you'd like to be anonymous.
+      </p>
+      <textarea
+        rows="1"
+        cols="20"
+        name="authorname"
+        id="author-name"
+      ></textarea>
+      <input id="submitNewsLetterButton" type="submit" value="submit" />
+    </form>
+  </div>
+  <script>
+    // MAKE A NEWSLETTER.JSON FILE
+    const fs = require('fs');
+    tempList = {}
+    const addNewsletter = (ev) => {
+        ev.preventDefault();
+        if (document.getElementById("author-name").value) {
+            let anonymous = true;
+        } else {
+            anonymouse = false;
+        }
+        if (anonymous === true) {
+            var name = "Anonymouse"
+        } else {
+            var name = document.getElementById("author-name").value;
+        }
+        let newsletter = {
+            id: Date.now(),
+            newsletter: document.getElementById("newsletter").value,
+            author: name
+
+        }
+        tempList.push(newsletter);
+        document.forms[0].reset();
+        var jsonContent = JSON.stringify(JSON.parse(tempList));
+        console.log(jsonContent);
+        fs.writeFile("newsletter.json", jsonContent, 'utf8', function(err) {
+            if (err) {
+                console.error("Error occured while saving data:");
+                return console.error(err);
+            }
+            console.log("JSON file saved")
+        });
+        console.log("added", {tempList});
+
+    }
+    document.addEventListener('DOMContentLoaded', () => {
+        document.getElementById("submitNewsLetterButton").addEventListener('click', addNewsletter);
+    });
+  </script>
+</body>

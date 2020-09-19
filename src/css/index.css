@@ -12,8 +12,9 @@
     text-align: center;
 }
  .topBar {
-     background-color: #4A4A4A;
+     background-color: #191a1a;
      overflow: hidden;
+     position: fixed; /* Sit on top of the page content */
     }
  .topBar a {
      float: right;

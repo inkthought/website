@@ -30,6 +30,9 @@ Please DM me on Discord at geneva#0007, and state why and your experience. Thank
   <img src="https://github.com/LakeTheEevee.png?size=50">
     </a>
 <div>
+ <a href="https://inkthought.codes" alt="inkthought labs website">the website</a>
+</div>     
+<div>
 <a href="https://bit.ly/hnkr" alt="honkers link">add honkers!</a>
 </div>
 <a href="https://discord.gg/GxfQh7H" alt="discord server">join our discord server!</a>

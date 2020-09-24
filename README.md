@@ -15,6 +15,20 @@ Please DM me on Discord at geneva#0007, and state why and your experience. Thank
 (p.s. this is an in-development project. not all builds are guaranteed to work and function normally, and we are working hard to do so.)
 
 <p>
+  <p>
+    We thank our contributors to make this project a reality:<br>
+<a href="https://github.com/flarely">
+  <img src="https://github.com/flarely.png?size=50">
+    </a>
+<a href="https://github.com/Paciic">
+  <img src="https://github.com/Paciic.png?size=50">
+    </a>
+    <a href="https://github.com/InfRandomness">
+  <img src="https://github.com/InfRandomness.png?size=50">
+    </a>
+        <a href="https://github.com/LakeTheEevee">
+  <img src="https://github.com/LakeTheEevee.png?size=50">
+    </a>
 <div>
 <a href="https://bit.ly/hnkr" alt="honkers link">add honkers!</a>
 </div>

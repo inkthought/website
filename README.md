@@ -29,7 +29,9 @@ Please DM me on Discord at geneva#0007, and state why and your experience. Thank
         <a href="https://github.com/LakeTheEevee">
   <img src="https://github.com/LakeTheEevee.png?size=50">
     </a>
-    <a href="https://github.com/Ashley-Thompson"> ...and Vixen</a>
+        <a href="https://github.com/Vxxen">
+  <img src="https://github.com/Vxxen.png?size=50">
+    </a>
 <div>
  <a href="https://inkthought.codes" alt="inkthought labs website">the website</a>
 </div>     

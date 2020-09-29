@@ -1,5 +1,5 @@
 # website
-This website is in development by [Paciic](https://github.com/Paciic), [Geneva](https://github.com/flarely), [Vixen](https://github.com/Vxxen) and [InfRandomness](https://github.com/InfRandomness). Bugs will be fixed as soon as they are reported.
+This website is in development by [Paciic](https://github.com/Paciic), [Geneva](https://github.com/flarely), [Vixen](https://github.com/Vxxenu) and [InfRandomness](https://github.com/InfRandomness). Bugs will be fixed as soon as they are reported.
 
 <p>
 PROJECT STATUS: Active

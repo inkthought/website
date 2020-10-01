@@ -5,6 +5,7 @@ This website is in development by [Paciic](https://github.com/Paciic), [Geneva](
 [![Netlify Status](https://api.netlify.com/api/v1/badges/eb05be17-9c86-4bbb-aa6e-2bac8dbccacf/deploy-status)](https://app.netlify.com/sites/inkthought/deploys)<br>
 <a href="https://inkthought.netlify.app">Take a look at it here!</a>
 
+[![first-timers-only](https://img.shields.io/badge/first--timers--only-friendly-blue.svg?style=flat-square)](https://www.firsttimersonly.com/)
 <p>
 PROJECT STATUS: Active
 

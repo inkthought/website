@@ -10,7 +10,7 @@ Issues should be reported in the Issues section of this repository. If you do wi
 
 <h2>Want to help out?</h2>
 <p>
-Please DM me on Discord at geneva#0007, and state why and your experience. Thanks.
+Please DM me on Discord at geneva#0058, and state why and your experience. Thanks.
 </p>
 
 (p.s. this is an in-development project. not all builds are guaranteed to work and function normally, and we are working hard to do so.)

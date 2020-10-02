@@ -1,9 +1,5 @@
 # website
-This website is in development by [Paciic](https://github.com/Paciic), [Geneva](https://github.com/flarely), [Vixen](https://github.com/Vxxen) and [InfRandomness](https://github.com/InfRandomness). Bugs will be fixed as soon as they are reported.
-
-### beta site:
-[![Netlify Status](https://api.netlify.com/api/v1/badges/eb05be17-9c86-4bbb-aa6e-2bac8dbccacf/deploy-status)](https://app.netlify.com/sites/inkthought/deploys)<br>
-<a href="https://inkthought.netlify.app">Take a look at it here!</a>
+This website is in development by [Paciic](https://github.com/Paciic), [geneva](https://github.com/flarely), [Vixen](https://github.com/Vxxen) and [InfRandomness](https://github.com/InfRandomness). Bugs will be fixed as soon as they are reported.
 
 [![first-timers-only](https://img.shields.io/badge/first--timers--only-friendly-blue.svg?style=flat-square)](https://www.firsttimersonly.com/)
 <p>

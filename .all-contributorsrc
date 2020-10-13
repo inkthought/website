@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "Vxxen",
+      "name": "Vixen",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/59813631?v=4",
+      "profile": "https://github.com/Vxxen",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "website",
+  "projectOwner": "inkthought",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}

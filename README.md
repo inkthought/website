@@ -1,4 +1,7 @@
 # website
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 This website is in development by [Paciic](https://github.com/Paciic), [geneva](https://github.com/flarely), [Vixen](https://github.com/Vxxen) and [InfRandomness](https://github.com/InfRandomness). Bugs will be fixed as soon as they are reported.
 
 [![first-timers-only](https://img.shields.io/badge/first--timers--only-friendly-blue.svg?style=flat-square)](https://www.firsttimersonly.com/)
@@ -41,3 +44,22 @@ Please DM me on Discord at geneva#0058, and state why and your experience. Thank
 </div>
 <a href="https://discord.gg/GxfQh7H" alt="discord server">join our discord server!</a>
 </p>
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/Vxxen"><img src="https://avatars1.githubusercontent.com/u/59813631?v=4" width="100px;" alt=""/><br /><sub><b>Vixen</b></sub></a><br /><a href="https://github.com/inkthought/website/commits?author=Vxxen" title="Code">💻</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!

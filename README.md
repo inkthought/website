@@ -21,8 +21,8 @@ Please DM me on Discord at geneva#0058, and state why and your experience. Thank
 <p>
   <p>
     We thank our contributors to make this project a reality:<br>
-<a href="https://github.com/flarely">
-  <img src="https://github.com/flarely.png?size=50">
+<a href="https://github.com/geenva">
+  <img src="https://github.com/geenva.png?size=50">
     </a>
 <a href="https://github.com/Paciic">
   <img src="https://github.com/Paciic.png?size=50">
@@ -45,7 +45,7 @@ Please DM me on Discord at geneva#0058, and state why and your experience. Thank
 <a href="https://discord.gg/GxfQh7H" alt="discord server">join our discord server!</a>
 </p>
 
-## Contributors ✨
+## Additional Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 

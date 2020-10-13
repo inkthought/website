@@ -2,9 +2,9 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
-This website is in development by [Paciic](https://github.com/Paciic), [geneva](https://github.com/flarely), [Vixen](https://github.com/Vxxen) and [InfRandomness](https://github.com/InfRandomness). Bugs will be fixed as soon as they are reported.
-
 [![first-timers-only](https://img.shields.io/badge/first--timers--only-friendly-blue.svg?style=flat-square)](https://www.firsttimersonly.com/)
+This website is in development by [Paciic](https://github.com/Paciic), [geneva](https://github.com/geenva) and  [Vixen](https://github.com/Vxxen). Bugs will be fixed as soon as they are reported.
+
 <p>
 PROJECT STATUS: Active
 

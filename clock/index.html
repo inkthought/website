@@ -11,6 +11,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+        <script src="https://glitchclock.netlify.app/jquery.js"></script>
         <link rel="stylesheet" href="../styles.css">
         <link rel="icon" href="https://i.ibb.co/SBX2vY1/inkthoughtinvis.png">
         <meta name="theme-color" content="#000">
@@ -24,7 +25,7 @@
     <body>
         <div class="jumbotron head">
             <div class="container text-center">
-                <a href=""><img class="img-fluid logo" src="../imgs/inkvisible.png"></a>
+                <a href=""><img class="img-fluid logo" src="../imgs/header-logo.png"></a>
                 <br />
                 <p class="typed"></p>
             </div>
@@ -33,25 +34,22 @@
         <div class="container">
             <div class="row">
                 <div class="col-3">
-                    <div class="nav flex-column nav-pills" role="tablist" aria-orientation="vertical">
+                    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                         <a class="nav-link top" id="v-pills-home-tab"href="../" role="tab" aria-controls="v-pills-home" aria-selected="true"><i class="fas fa-home"></i> <strong class="pad">Home</strong></a>
                         <a class="nav-link top" id="v-pills-projects-tab" href="../projects/" role="tab" aria-controls="v-pills-projects" aria-selected="false"><i class="fas fa-project-diagram"></i> <strong class="pad">Projects</strong></a>
-                        <a class="nav-link top" id="v-pills-contact-tab" href="#" role="tab" aria-controls="v-pills-contact" aria-selected="false"><i class="fas fa-envelope"></i> <strong class="pad">Contact</strong></a>
+                        <a class="nav-link top" id="v-pills-contact-tab" href="../contact/" role="tab" aria-controls="v-pills-contact" aria-selected="false"><i class="fas fa-envelope"></i> <strong class="pad">Contact</strong></a>
                         <a class="nav-link top" id="v-pills-team-tab" href="../team/" role="tab" aria-controls="v-pills-team" aria-selected="false"><i class="fas fa-users-cog"></i> <strong class="pad">Team</strong></a>
                         <a class="nav-link top" id="v-pills-partners-tab" href="../partners/" role="tab" aria-controls="v-pills-partners" aria-selected="false"><i class="fas fa-users"></i> <strong class="pad">Partners</strong></a>
-                        <a class="nav-link top active" id="v-pills-nowListening-tab" href="../nowlistening/" role="tab" aria-controls="v-pills-nowListening" aria-selected="false"><i class="fas fa-users"></i> <strong class="pad">Now Listening</strong></a>
+                        <a class="nav-link top active" id="v-pills-clock-tab" href="#" role="tab" aria-controls="v-pills-clock" aria-selected="false"><i class="fas fa-clock"></i> <strong class="pad">Clock</strong></a>
                         <a class="nav-link top" href="https://discord.gg/JDsdgqJ" target="_blank"><i class="fab fa-discord"></i> <strong class="pad">Discord</strong></a>
                     </div>
                 </div>
                 <div class="col-9">
                     <div class="card-body">
                         <div class="tab-content" id="v-pills-tabContent">
-                            <!-- Contact -->
-                            <div class="tab-pane fade show active" id="v-pills-nowListening" role="tabpanel" aria-labelledby="v-pills-nowListening-tab">
-                                <h3><strong>geneva's now listening to:</strong></h3><br>
-                                <div style="justify-content: center; display: flex;">
-                                <iframe frameBorder="0" width="350" height="70" src="https://nowplaying.aidenwallis.co.uk/5f4c8062ef346c0d0a3db23e"></iframe>
-                                </div>
+                            <!-- Parters -->
+                            <div class="tab-pane fade show active" id="v-pills-partners" role="tabpanel" aria-labelledby="v-pills-partners-tab">
+                                <iframe class="col-12" src="https://circular-clock.netlify.app/" frameborder="0"></iframe>
                             </div>
                         </div>
                     </div>
@@ -59,8 +57,7 @@
             </div>
         </div>
         <div class="footer text-center">
-            <p class="muted">Copyright &copy; Vixen<a href="/">, geneva, inkthought labs</a> | 2020 - 2020<br>
-            Special thanks to Vixen for building this amazing website. &#x1F497;</p>
+            <p class="muted">Copyright &copy; <a href="/"> inkthought labs</a> | 2020 - 2020</p>
         </div>
         <script>
             document.addEventListener('contextmenu', event => event.preventDefault());
@@ -81,6 +78,32 @@
                 loop: true,
                 backDelay: 3000,
                 contentType: 'html'
+            });
+
+            $(document).ready(function () {
+
+                function second_passed() {
+                    $('.clock').removeClass('is-off');
+                }
+                setTimeout(second_passed, 2000)
+
+                $('.switcher').on('click', function(e) {
+                    e.preventDefault();
+                    $('.screen').toggleClass('glitch');
+                });
+
+                var newDate = new Date();
+                newDate.setDate(newDate.getDate());
+
+                setInterval( function() {
+                    var hours    = new Date().getHours();
+                    var seconds  = new Date().getSeconds();
+                    var minutes  = new Date().getMinutes();
+                    var realTime = ( hours < 10 ? '0' : '' ) + hours + ' : ' + ( minutes < 10 ? '0' : '' ) + minutes + ' : ' + ( seconds < 10 ? '0' : '' ) + seconds
+
+                    $('.time').html(realTime);
+                    $('.time').attr('data-time', realTime);
+                }, 1000);
             });
         </script>
     </body>

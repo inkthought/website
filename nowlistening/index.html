@@ -39,19 +39,16 @@
                         <a class="nav-link top" id="v-pills-contact-tab" href="#" role="tab" aria-controls="v-pills-contact" aria-selected="false"><i class="fas fa-envelope"></i> <strong class="pad">Contact</strong></a>
                         <a class="nav-link top" id="v-pills-team-tab" href="../team/" role="tab" aria-controls="v-pills-team" aria-selected="false"><i class="fas fa-users-cog"></i> <strong class="pad">Team</strong></a>
                         <a class="nav-link top" id="v-pills-partners-tab" href="../partners/" role="tab" aria-controls="v-pills-partners" aria-selected="false"><i class="fas fa-users"></i> <strong class="pad">Partners</strong></a>
-                        <a class="nav-link top active" id="v-pills-nowListening-tab" href="../nowlistening/" role="tab" aria-controls="v-pills-nowListening" aria-selected="false"><i class="fas fa-users"></i> <strong class="pad">Now Listening</strong></a>
+                        <a class="nav-link top active" id="v-pills-nowListening-tab" href="../nowlistening/" role="tab" aria-controls="v-pills-nowListening" aria-selected="false"><i class="fas fa-play-circle"></i> <strong class="pad">Now Listening</strong></a>
                         <a class="nav-link top" href="https://discord.gg/JDsdgqJ" target="_blank"><i class="fab fa-discord"></i> <strong class="pad">Discord</strong></a>
                     </div>
                 </div>
                 <div class="col-9">
                     <div class="card-body">
                         <div class="tab-content" id="v-pills-tabContent">
-                            <!-- Contact -->
+                            <!-- music -->
                             <div class="tab-pane fade show active" id="v-pills-nowListening" role="tabpanel" aria-labelledby="v-pills-nowListening-tab">
-                                <h3><strong>geneva's now listening to:</strong></h3><br>
-                                <div style="justify-content: center; display: flex;">
-                                <iframe frameBorder="0" width="350" height="70" src="https://nowplaying.aidenwallis.co.uk/5f4c8062ef346c0d0a3db23e"></iframe>
-                                </div>
+                                <h3>geneva is listening to:</h3><br><span style="font-size: 40px" id="music"></span>
                             </div>
                         </div>
                     </div>
@@ -82,6 +79,21 @@
                 backDelay: 3000,
                 contentType: 'html'
             });
+            const api_url = "https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=flarely&api_key=43d315fbd6dd6715cc8adf4b63a49f2a&format=json&limit=1"; 
+
+// making an async function (non-async function won't work -_-)
+async function get_data_from_api(url) { 
+    // data
+    const response = await fetch(url); 
+    var data = await response.json();
+    // song info
+    var track = data["recenttracks"]["track"][0]["name"]
+    var artist = data["recenttracks"]["track"][0]["artist"]["#text"]
+    document.getElementById('music').innerHTML = "&#x1F3A7; " + track +  " by " + artist;
+    setTimeout(() => get_data_from_api(url), 20000)
+}
+    // calling the function, lol
+get_data_from_api(api_url); 
         </script>
     </body>
 </html>

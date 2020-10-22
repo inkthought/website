@@ -89,7 +89,7 @@ async function get_data_from_api(url) {
     // song info
     var track = data["recenttracks"]["track"][0]["name"]
     var artist = data["recenttracks"]["track"][0]["artist"]["#text"]
-    document.getElementById('music').innerHTML = "&#x1F3A7; " + track +  " by " + artist;
+    document.getElementById('music').innerText = "🎧 " + track +  " by " + artist;
     setTimeout(() => get_data_from_api(url), 20000)
 }
     // calling the function, lol
